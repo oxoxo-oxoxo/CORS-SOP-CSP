@@ -65,12 +65,12 @@ Origin = **scheme + domain + port**
 
 কোনো র‌্যান্ডম ওয়েবসাইট যেন তোমার ব্যাংক বা ইমেইল সাইটের ডাটা পড়ে ফেলতে না পারে, তাই **Same Origin Policy**।
 
-ধরো তুমি ব্রাউজারে দুইটা ট্যাব খুলেছ:
+ধরো তুমি ব্রাউজারে দুইটা ট্যাব খুলেছ এবং দুইটা ট্যাবে আছে আলাদা দুইটা অরিজিন:
 
 1. **https://bank.com**
 2. **https://evil.com**
 
-ধরো evil.com এর ভিতরে JavaScript আছে। সে চায় bank.com এর ডাটা পড়তে (GET):
+ধরো evil.com এর ভিতরে JavaScript কোড আছে এবং সে চায় ওই code এর মাধ্যমে bank.com এর ডাটা পড়তে (GET):
 
 ```jsx
 document.location = "https://bank.com/account";
