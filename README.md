@@ -40,7 +40,7 @@ Access-Control-Allow-Origin: https://siteA.com
 Access-Control-Allow-Methods: GET, POST
 ```
 
-**মানে**: **“হ্যাঁ, siteA.com আমার ডাটা নিতে পারবে।”** তারপর তুমি ডাটা পেয়ে যাবে।
+**মানে**: **“হ্যাঁ, siteA.com আমার ডাটা নিতে পারবে।”** তারপর তুমি user siteB.com এর ডাটা পেয়ে যাবে।
 
 siteB.com যদি অনুমতি না দেয়, ব্রাউজার সরাসরি ব্লক করে দেবে। তখন তুমি শুধু একটা error দেখবে:
 
